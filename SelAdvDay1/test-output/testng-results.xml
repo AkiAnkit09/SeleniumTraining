@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-05-20T06:03:23Z" name="Suite" finished-at="2018-05-20T06:05:37Z" duration-ms="133821">
+    <groups>
+    </groups>
+    <test started-at="2018-05-20T06:03:23Z" name="Test1" finished-at="2018-05-20T06:03:52Z" duration-ms="28820">
+      <class name="com.tests.NewTest">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.tests.NewTest@5c90e579]" started-at="2018-05-20T06:03:23Z" name="beforeTest" finished-at="2018-05-20T06:03:32Z" duration-ms="8675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="testMercuryToursWelcome()[pri:1, instance:com.tests.NewTest@5c90e579]" started-at="2018-05-20T06:03:32Z" name="testMercuryToursWelcome" finished-at="2018-05-20T06:03:40Z" duration-ms="8481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMercuryToursWelcome -->
+        <test-method signature="testMercuryToursRegister()[pri:2, instance:com.tests.NewTest@5c90e579]" started-at="2018-05-20T06:03:40Z" name="testMercuryToursRegister" finished-at="2018-05-20T06:03:47Z" duration-ms="6343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMercuryToursRegister -->
+        <test-method signature="testMercuryToursLogin()[pri:3, instance:com.tests.NewTest@5c90e579]" started-at="2018-05-20T06:03:47Z" name="testMercuryToursLogin" finished-at="2018-05-20T06:03:52Z" duration-ms="5026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMercuryToursLogin -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.tests.NewTest@5c90e579]" started-at="2018-05-20T06:03:52Z" name="afterTest" finished-at="2018-05-20T06:03:52Z" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.tests.NewTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2018-05-20T06:03:52Z" name="Test2" finished-at="2018-05-20T06:05:37Z" duration-ms="104922">
+      <class name="com.tests.NewTest">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.tests.NewTest@3f56875e]" started-at="2018-05-20T06:03:52Z" name="beforeTest" finished-at="2018-05-20T06:04:59Z" duration-ms="66762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="testMercuryToursWelcome()[pri:1, instance:com.tests.NewTest@3f56875e]" started-at="2018-05-20T06:04:59Z" name="testMercuryToursWelcome" finished-at="2018-05-20T06:05:14Z" duration-ms="15747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMercuryToursWelcome -->
+        <test-method signature="testMercuryToursRegister()[pri:2, instance:com.tests.NewTest@3f56875e]" started-at="2018-05-20T06:05:14Z" name="testMercuryToursRegister" finished-at="2018-05-20T06:05:29Z" duration-ms="14454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMercuryToursRegister -->
+        <test-method signature="testMercuryToursLogin()[pri:3, instance:com.tests.NewTest@3f56875e]" started-at="2018-05-20T06:05:29Z" name="testMercuryToursLogin" finished-at="2018-05-20T06:05:33Z" duration-ms="4013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMercuryToursLogin -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.tests.NewTest@3f56875e]" started-at="2018-05-20T06:05:33Z" name="afterTest" finished-at="2018-05-20T06:05:37Z" duration-ms="3937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.tests.NewTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
